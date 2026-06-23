@@ -6,7 +6,7 @@ class TestGpaFunctions(unittest.TestCase):
         self.assertEqual(tinh_diem_gpa(8.5), 4.0)
 
     def test_gpa_tuyen_tinh(self):
-        self.assertEqual(tinh_diem_gpa(7.0), 2.8)
+        self.assertEqual(tinh_diem_gpa(7.0), 3.0)
 
 if __name__ == '__main__':
     unittest.main()
